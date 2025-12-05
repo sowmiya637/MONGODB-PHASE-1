@@ -1,0 +1,15 @@
+{
+"name": "mongo-local-atlas-demo",
+"version": "1.0.0",
+"main": "server.js",
+"type": "module",
+"scripts": {
+"start": "node server.js",
+"insert": "node tasks/insert50.js",
+"fetch": "node tasks/fetchAll.js"
+},
+"dependencies": {
+"dotenv": "^16.0.0",
+"mongoose": "^8.0.0"
+}
+}
