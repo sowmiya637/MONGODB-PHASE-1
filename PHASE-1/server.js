@@ -6,4 +6,5 @@ import User from "./models/User.js";
 connectDB();
 
 
+
 // optional: simple API (not required for tasks)
